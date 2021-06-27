@@ -39,7 +39,7 @@
         <img src="check.png"/>
         <img src="Google Logo.png"/>
         <img src="Windows.jpg"/>
-        <form>
+        <form action="dosomething" method="post">
             <br>
         >Username: <input type="text" name="username" size="50" value="Enter your Name Here"/>
         Male: <input type="radio" name="sex" value="male"> 
@@ -57,6 +57,20 @@
         <option value="opossum">teach a opossum </option>
         <option value="shave">shave </option>
         </select>
+        <br>
+        Tell me about yourself:
+        <textarea name="bio" rows="8" cols="40">
+          Type something here
+        </textarea>
+        Password: <input type="password" name="pword"/>
+        <p>Now submit a file</p>
+        <input type="file" name="buckysfile"/>
+        <br>
+        Username: <input type="text" name="username"/>
+        <br>
+        Password: <input type="password" name="pass"/>
+        <br>
+        <input type="submit" value="Submit!">
         </form>
     </body>
 </html>
